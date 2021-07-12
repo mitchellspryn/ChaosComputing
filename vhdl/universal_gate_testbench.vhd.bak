@@ -1,0 +1,9 @@
+library ieee
+use ieee.std_logic_1164.all;
+
+entity universal_gate_testbench is
+end universal_gate_testbench
+
+architecture behavorial of universal_gate_testbench is
+
+end architecture;

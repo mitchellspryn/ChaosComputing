@@ -1,0 +1,184 @@
+|universal_computer
+in_a[0] => brute_force_universal_element:gen_gates:0:tmp_gate.in_a
+in_a[0] => brute_force_universal_element:gen_gates:1:tmp_gate.in_a
+in_a[1] => brute_force_universal_element:gen_gates:2:tmp_gate.in_a
+in_a[1] => brute_force_universal_element:gen_gates:3:tmp_gate.in_a
+in_b[0] => in_vec[5].DATAA
+in_b[0] => in_vec[3].DATAB
+in_b[0] => brute_force_universal_element:gen_gates:0:tmp_gate.in_b
+in_b[1] => in_vec[5].DATAB
+in_b[1] => in_vec[3].DATAA
+in_b[1] => brute_force_universal_element:gen_gates:3:tmp_gate.in_b
+add_not_mul => in_vec[15].OUTPUTSELECT
+add_not_mul => in_vec[14].OUTPUTSELECT
+add_not_mul => in_vec[13].OUTPUTSELECT
+add_not_mul => in_vec[12].OUTPUTSELECT
+add_not_mul => in_vec[5].OUTPUTSELECT
+add_not_mul => in_vec[3].OUTPUTSELECT
+add_not_mul => output.OUTPUTSELECT
+add_not_mul => brute_force_universal_element:gen_gates:0:tmp_gate.gate_sel[1]
+add_not_mul => brute_force_universal_element:gen_gates:2:tmp_gate.gate_sel[1]
+add_not_mul => brute_force_universal_element:gen_gates:6:tmp_gate.gate_sel[0]
+add_not_mul => brute_force_universal_element:gen_gates:6:tmp_gate.gate_sel[1]
+output[0] << brute_force_universal_element:gen_gates:0:tmp_gate.output
+output[1] << brute_force_universal_element:gen_gates:4:tmp_gate.output
+output[2] << brute_force_universal_element:gen_gates:6:tmp_gate.output
+output[3] << output.DB_MAX_OUTPUT_PORT_TYPE
+output[4] << <GND>
+output[5] << <GND>
+output[6] << <GND>
+output[7] << <GND>
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:0:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:1:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:2:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:3:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:4:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:5:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:6:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_computer|brute_force_universal_element:\gen_gates:7:tmp_gate
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_a => output.IN0
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+in_b => output.IN1
+gate_sel[0] => Mux0.IN10
+gate_sel[1] => Mux0.IN9
+gate_sel[2] => Mux0.IN8
+output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
