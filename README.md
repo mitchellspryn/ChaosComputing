@@ -14,7 +14,7 @@ This folder contains python scripts used to generate the plots for the article a
 ![img](readme_pictures/lyapunov_logistic_both.png)
 
 * **SearchForLogicGateThresholds.py**: This script performs a brute-force search for chaotic parameters for a given chaotic function. It allows the user to specify the number of bits of precision to use for internal computation values, and enumerates through all possible values. This was used to find the chaotic parameter values referenced in the article. 
-* 
+
 ## VHDL
 This folder contains the VHDL project used to implement the chaotic lattice on the FPGA. It consists of the following important files:
 
