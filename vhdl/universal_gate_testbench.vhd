@@ -1,3 +1,5 @@
+-- A testbench for the universal logic elements 
+-- Used to run the modelsim simulations
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -38,6 +40,7 @@ constant cycle_period : time := 100 ns;
 constant clock_cycle_period: time := 10 ns;
 
 begin
+	-- Swap this item to test different universal gates.
 	device_under_test : tent_universal_element 
 	port map
 	(

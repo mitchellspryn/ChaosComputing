@@ -1,3 +1,5 @@
+-- A brute-force implementation of a universal gate.
+-- Used as a sanity check for the universal computer wiring. 
 library ieee;
 use ieee.std_logic_1164.all;
 

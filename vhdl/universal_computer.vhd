@@ -1,6 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+-- The chaotic lattice that serves as the top-level entity to be synthesized
+
 entity universal_computer is
 	port
 	(

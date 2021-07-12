@@ -1,3 +1,5 @@
+-- The implementation of the chaotic universal gate.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -39,8 +41,8 @@ begin
 				x_0 <= "011"; -- 0.375 
 				x_c <= "001"; -- 0.125
 			when "100" => -- in_a nor in_b
-				x_0 <= "100";
-				x_c <= "010";
+				x_0 <= "100"; -- 0.500
+				x_c <= "010"; -- 0.250
 			when others => --output <= in_a xnor in_b;
 				x_0 <= "110"; -- 0.000
 				x_c <= "000"; -- 0.250
