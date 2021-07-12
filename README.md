@@ -1,5 +1,5 @@
 # ChaosComputing
-This repository contains code and assets used to generate the [Computing With Chaos]() article. For context on what is here, check out the article!
+This repository contains code and assets used to generate the [Computing With Chaos](http://www.mitchellspryn.com/2021/07/07/Computing-With-Chaos.html) article. For context on what is here, check out the article!
 
 ![img](readme_pictures/DemoGif.gif)
 
